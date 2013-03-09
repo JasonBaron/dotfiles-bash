@@ -1,1 +1,1 @@
-export THEME=minimal
+export THEME=daryl
