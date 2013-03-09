@@ -14,6 +14,9 @@ eval "$(lesspipe.sh)"
 # Start ScreenSaver. This will lock the screen if locking is enabled.
 alias ss="open /System/Library/Frameworks/ScreenSaver.framework/Versions/A/Resources/ScreenSaverEngine.app"
 
+# List open ports
+alias ports="lsof -i -P | grep -i "listen
+
 # Create a new Parallels VM from template, replacing the existing one.
 function vm_template() {
   local name="$@"
