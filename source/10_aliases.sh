@@ -10,6 +10,7 @@ alias v="vim"
 alias s="subl ."
 alias o="open"
 alias oo="open ."
+alias st="stree"
 
 # Enable aliases to be sudo’ed
 alias sudo='sudo '
