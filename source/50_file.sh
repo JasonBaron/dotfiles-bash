@@ -4,7 +4,7 @@
 umask 022
 
 # Always use color output for `ls`
-eval `cat ~/.dotfiles/conf.dircolors`
+eval `cat ~/.dotfiles/conf/dircolors`
 if [[ "$OSTYPE" =~ ^darwin ]]; then
   if [[ -e "/usr/local/bin/gls" ]]; then
      alias ls="/usr/local/bin/gls --color -F"
