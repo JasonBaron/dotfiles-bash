@@ -11,6 +11,7 @@ alias s="subl ."
 alias o="open"
 alias oo="open ."
 alias st="stree"
+alias t="tmux"
 
 # Enable aliases to be sudo’ed
 alias sudo='sudo '
